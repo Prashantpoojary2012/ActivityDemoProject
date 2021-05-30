@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.activityproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:5:5-64
+13-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-community_netinfo] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-community_netinfo] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[:react-native-community_netinfo] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+16-->[:react-native-community_netinfo] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-73
+17
+18    <application
+18-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:8:5-28:19
+19        android:name="com.activityproject.MainApplication"
+19-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:9:7-38
+20        android:allowBackup="false"
+20-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:13:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.2] /Users/rohanmalhotra/.gradle/caches/transforms-2/files-2.1/ddf99d9a635f656c9bca7f96bb2ac2c3/core-1.3.2/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:11:7-41
+24        android:label="@string/app_name"
+24-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:10:7-39
+25        android:requestLegacyExternalStorage="true"
+25-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:15:7-50
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:12:7-52
+27        android:theme="@style/AppTheme"
+27-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:14:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/debug/AndroidManifest.xml:7:18-53
+29        <activity
+29-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:17:7-26:18
+30            android:name="com.activityproject.MainActivity"
+30-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:18:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+31-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:20:9-79
+32            android:label="@string/app_name"
+32-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:19:9-41
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:21:9-51
+34            <intent-filter>
+34-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:22:9-25:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:23:13-65
+35-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:23:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:24:13-73
+37-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:24:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:27:7-84
+40-->/Users/rohanmalhotra/reactnative/ActivityProject/android/app/src/main/AndroidManifest.xml:27:17-81
+41
+42        <provider
+42-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+43            android:name="com.imagepicker.FileProvider"
+43-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+44            android:authorities="com.activityproject.provider"
+44-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+45            android:exported="false"
+45-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+46            android:grantUriPermissions="true" >
+46-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+47            <meta-data
+47-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+49                android:resource="@xml/provider_paths" />
+49-->[:react-native-image-picker] /Users/rohanmalhotra/reactnative/ActivityProject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+50        </provider>
+51    </application>
+52
+53</manifest>
